@@ -10,6 +10,8 @@ var SignaturePad = (function(document) {
     "use strict";
 
     var log = console.log.bind(console);
+    
+    // this is a comment.
 
     var SignaturePad = function(canvas, options) {
         var self = this,
@@ -451,3 +453,5 @@ showPointsToggle.addEventListener('click', function(event) {
     signaturePad.showPointsToggle();
     showPointsToggle.classList.toggle('toggle');
 });
+
+var savedImage = document.getElementById('signatureImage')
